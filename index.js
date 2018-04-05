@@ -120,7 +120,7 @@ function moveDodgerRight() {
   var rightNumbers = dodger.style.left.replace('px', '')
   var right = parseInt(rightNumbers, 10)
 
-  if (right > 3600) {
+  if (right > 360) {
     dodger.style.left = `${left + 4}px`
   }
 }
