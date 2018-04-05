@@ -20,11 +20,11 @@ var gameInterval = null
 function checkCollision(rock) {
   // implement me!
   // use the comments below to guide you!
-  
-  /*Rock Dodger checkCollision(rock) rock is > 360px from the top of GAME collides if the 
-  rock's left edge is <= the DODGER's left edge and the rock's right edge is >= the DODGER's 
+
+  /*Rock Dodger checkCollision(rock) rock is > 360px from the top of GAME collides if the
+  rock's left edge is <= the DODGER's left edge and the rock's right edge is >= the DODGER's
   left edge*/
-  
+
   const top = positionToInteger(rock.style.top)
 
   // rocks are 20px high
